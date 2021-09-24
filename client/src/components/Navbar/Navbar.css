@@ -1,0 +1,37 @@
+.NavbarItems {
+  background: linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 252, 1) 100%
+  );
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+.NavbarItems li {
+  display: inline;
+  width: 60px;
+  text-decoration: none;
+  padding: 10rem;
+}
+.NavbarItems a {
+  width: 60px;
+  text-decoration: none;
+}
+.NavbarItems ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
