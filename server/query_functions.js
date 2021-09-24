@@ -4,9 +4,8 @@ const getAllProducts = async () => {
   return await ProductModel.find({});
 };
 
-const getProudctById = async (id) => {
+const getProductById = async (id) => {
   return await ProductModel.findById(id);
 };
-
 
 module.exports = { getAllProducts, getProductById };
