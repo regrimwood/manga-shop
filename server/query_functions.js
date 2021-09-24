@@ -5,9 +5,7 @@ const getAllProducts = async () => {
 };
 
 const getProductById = async (id) => {
-  const result = await ProductModel.findById(id);
-  console.log("🌸", result);
-  return result;
+  return await ProductModel.findById(id);
 };
 
 module.exports = { getAllProducts, getProductById };
