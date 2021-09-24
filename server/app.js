@@ -29,3 +29,5 @@ app.get("/products", async (request, response) => {
 app.get("/products/:id", async (request, response) => {
   response.send(await getProductById());
 });
+
+module.exports = app;
