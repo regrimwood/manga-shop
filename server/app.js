@@ -1,33 +1,43 @@
-// const { application } = require("express");
-// const express = require("express");
-// const app = express();
-// const port = 3000;
-// const products = require("/products");
-
-// app.get("/products", (request, response) => {
-//   response.send(products);
-// });
-
-// app.listen(port, () => {
-//   console.log(`listening at http://localhost:3000`);
-// });
-
-// module.exports = app;
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const port = 3000;
 const { getAllProducts, getProductById } = require("./query_functions");
 
 app.use(cors());
 app.use(express.json());
 
 app.get("/products", async (request, response) => {
-  response.send(await getAllProducts());
+  const allProducts = await getAllProducts();
+
+  const products = allProducts.map(
+    ({ _id: id, title, description, img, isbn, price, rating }) => ({
+      id,
+      title,
+      description,
+      img,
+      isbn,
+      price,
+      rating,
+    }),
+  );
+
+  response.send(products);
 });
 
 app.get("/products/:id", async (request, response) => {
-  response.send(await getProductById());
+  const {
+    _id: id,
+    title,
+    description,
+    img,
+    isbn,
+    price,
+    rating,
+  } = await getProductById(request.params.id);
+
+  const product = { id, title, description, img, isbn, price, rating };
+
+  response.send(product);
 });
 
 module.exports = app;
