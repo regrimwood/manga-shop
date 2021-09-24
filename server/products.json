@@ -25,5 +25,33 @@
         "rating": "4.5 stars",
         "img": "https://images-na.ssl-images-amazon.com/images/I/51seMCZXn4L._SX334_BO1,204,203,200_.jpg"
         
+      },
+      {
+        "price": "$9.17",
+        "description": "In this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans.",
+        "isbn": 9781612620244,
+        "title": "Attack on Titan 1",
+        "rating": "5 stars",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51ywmxi7JVL._SX331_BO1,204,203,200_.jpg"
+        
+      },
+      {
+        "price": "$9.99",
+        "description": "Tanjiro sets out on the path of the Demon Slayer to save his sister and avenge his family!",
+        "isbn": 1974700526,
+        "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+        "rating": "5 stars",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61RLgk2k-1L._SX331_BO1,204,203,200_.jpg"
+        
+      },
+      {
+        "price": "$9.99",
+        "description": "To gain the power he needs to save his friend from a cursed spirit, Yuji Itadori swallows a piece of a demon, only to find himself caught in the midst of a horrific war of the supernatural!",
+        "isbn": 1974710025,
+        "title": "Jujutsu Kaisen, Vol. 1 ",
+        "rating": "5 stars",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51CcaF9O78L._SX331_BO1,204,203,200_.jpg"
+        
       }
+      
 ]
