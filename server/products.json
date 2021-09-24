@@ -1,0 +1,29 @@
+[
+    {
+        "price": "$25.00",
+        "description": "Naruto is a young shinobi with an incorrigible knack for mischief.",
+        "isbn": 9781421539898,
+        "title": "Naruto: 3-in-1 Edition, Vol. 1",
+        "rating": "5 stars",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61ExB5eOiBL._SX331_BO1,204,203,200_.jpg"
+        
+      },
+      {
+        "price": "$5.55",
+        "description": "Midoriya inherits the superpower of the world’s greatest hero, but greatness won’t come easy.",
+        "isbn": 9781421582696,
+        "title": "My Hero Academia, Vol. 1",
+        "rating": "5 stars",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51FAgOL-1bL._SX331_BO1,204,203,200_.jpg"
+        
+      },
+      {
+        "price": "$10.00",
+        "description": "Tiger Girl battles Wolf Hound in The Cunning Trap of the Wolf Hound! and When the Pussy Cat Pounces -- Watch Out!",
+        "isbn": 978142158456,
+        "title": "Tiger Girl No. 1",
+        "rating": "4.5 stars",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/51seMCZXn4L._SX334_BO1,204,203,200_.jpg"
+        
+      }
+]
