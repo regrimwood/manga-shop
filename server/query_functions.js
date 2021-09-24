@@ -8,4 +8,5 @@ const getProudctById = async (id) => {
   return await ProductModel.findById(id);
 };
 
+
 module.exports = { getAllProducts, getProductById };
