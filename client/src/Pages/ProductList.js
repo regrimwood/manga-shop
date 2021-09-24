@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductList from "../components/ProductList";
 
-const ProductListing = () => {
+const ProductListings = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -21,4 +21,4 @@ const ProductListing = () => {
   );
 };
 
-export default ProductListing;
+export default ProductListings;

@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Product from "./pages/Product";
-import ProductList from "./pages/ProductList";
+import ProductListing from "./Pages/Product.js";
+import ProductListings from "./Pages/ProductList.js";
 
 function App() {
   return (
@@ -11,10 +11,10 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/product/:id">
-              <Product />
+              <ProductListing />
             </Route>
             <Route path="/">
-              <ProductList />
+              <ProductListings />
             </Route>
           </Switch>
         </div>
